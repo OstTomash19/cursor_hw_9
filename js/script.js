@@ -1,3 +1,5 @@
+const UsingTime = 1000;
+
 const generateBlocks = () => {
     const littleSquaresInLine = 5;
     const countOfLittleSquare = 25;
@@ -29,4 +31,4 @@ const generateBlocksInterval = () => {
     });
 }
 
-setInterval(() => generateBlocksInterval(), 1000);
+setInterval(() => generateBlocksInterval(), UsingTime);
